@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.config.js"></script>
+  </head>
+  <body class="bg-slate-900 min-w-[500px] max-w-screen h-screen grid items-center justify-items-center text-white px-1">
+    <div class="main-container bg-slate-800 h-[70%] 
+    max-w-[50%] min-w-[470px] max-md:max-w-[80%] w-full rounded-3xl ">
+    <div class="flex h-[17%] justify-center items-center">
+      <div class="relative min-w-[320px] max-w-[50%] w-full">
+        <input type="text" class="country-search w-full h-10 text-xl bg-transparent border-b border-white rounded-10
+        outline-none pr-14 pl-3 text-left focus:border-b-2 ">
+        <div class="search-icon absolute right-2 top-[10%] cursor-pointer p-1">
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    
+    <script src="./scripts/Weather.js" type="module"></script>
+    <script src="./scripts/render/render.js" type="module"></script>
+  </body>
+</html>
