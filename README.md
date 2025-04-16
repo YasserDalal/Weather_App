@@ -6,7 +6,7 @@
 &nbsp;
 #### Engineered a clean, modern UI with **Tailwind CSS**, focusing on **responsiveness** and **code readability**
 #### Implemented a project utilizing the **OpenWeather API**, ensuring efficient data handling and accurate weather information display.
-#### Utilized ```async/await``` and ```fetch```for clean, readable, and efficient data handling.
+#### Utilized ```async/await``` and ```fetch``` for clean, readable, and efficient data handling.
 &nbsp;  
 
 #### This is the technology I used for this project 
